@@ -1,4 +1,5 @@
 Ciphertext-policy attribute-based encryption based on LSSS
+
 Package: cpabe-lsss0.1.rar
 Developer: Kang Qian, Liu Xuejiao
 Contact: kangqian@yuantiaotech.com 
