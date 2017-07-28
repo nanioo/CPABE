@@ -18,25 +18,25 @@ Tested but are not sure for no bugs. What’s more, the implementing of access p
 Instruction:
 The toolkit offers two set of interface:
 1.Read/write file
-public void setup(String pubfile, String mkfile)
+   public void setup(String pubfile, String mkfile)
 This method generates public key and master key, result is stored in pubfile and mkfile.
-public void keygen(String pubfile, String mkfile, String attfile, String prifile, String attList)
+   public void keygen(String pubfile, String mkfile, String attfile, String prifile, String attList)
 This method generates attribute key and private key. The attList is a set of attribute list, like (A,B,C) and (Lily, Mike).
-public String encrypt(String policy, String pubfile, String plaintext, String encfile)
+   public String encrypt(String policy, String pubfile, String plaintext, String encfile)
 This method encrypts the plaintext with public key and policy. The policy reflects access structure. We can set the policy like (A and B) ,((Lily and Mike) or Boss).
-public String decrypt(String pubfile, String attfile, String prifile, String outfile)
+   public String decrypt(String pubfile, String attfile, String prifile, String outfile)
 	This method decrypts the ciphertext with private key and attribute key, the decrypted text is stored in outfile.
 
 2.InterValue Class
 The class InterValue contains the attributes of pubKey, masKey, attKey, priKey, encrypted, plaintext;
-public void setup(InterValue value)
+   public void setup(InterValue value)
 This method generates public key and master key. The result is stored in the object value.
-public void keygen(InterValue value, String list)
+   public void keygen(InterValue value, String list)
 	This method generates attribute key and private key. The attList is a set of attribute list, like (A,B,C) and (Lily, Mike).
 Notice: The public key and master key must be valued before revoking this method.
-public String encrypt(InterValue value , String policy, String plaintext)
+   public String encrypt(InterValue value , String policy, String plaintext)
 This method encrypts the plaintext with public key and policy. The policy reflects access structure. We can set the policy like (A and B) ,((Lily and Mike) or Boss). 
 Notice: The public key must be valued before revoking this method.
-public String decrypt(InterValue value)
+   public String decrypt(InterValue value)
 	This method decrypts the ciphertext with private key and attribute key, the decrypted text is stored in outfile.
 Notice: The public key, attribute key, private key, and ciphertext must be valued before revoking this method.
