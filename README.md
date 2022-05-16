@@ -1,8 +1,8 @@
 Ciphertext-policy attribute-based encryption based on LSSS<br/> 
 
 Package: cpabe-lsss0.1.rar<br/> 
-Developer: Kang Qian, Liu Xuejiao<br/> 
-Contact: hznubruce@163.com <br/> 
+Developer: <br/> 
+Contact:  <br/> 
 Last updated: November 27, 2014<br/> 
 Descriptions: <br/> 
 The cpabe toolkit provides a set of programs implementing ciphertext-policy attribute-based encryption scheme based on LSSS. Our contribution is realizing the schema by Java based on. It uses jpbc-api-1.2.1.jar, jpbc-plaf-1.2.1.jar for the algebraic operations. (http://gas.dia.unisa.it/projects/jpbc/index.html)<br/> 
@@ -14,7 +14,7 @@ John Bethencourt, Amit Sahai, and Brent Waters. 28th IEEE Symposium on Security 
 (2) Ciphertext-Policy Attribute-Based Encryption: An Expressive, Efficient, and Provably<br/> 
 Secure Realization. Brent Waters. 14th International Conference on Practice and Theory in Public Key Cryptography, Taormina, Italy, March 6-9, 2011. Proceedings.<br/> 
 Bugs and Limitations:<br/> 
-Tested but are not sure for no bugs. What’s more, the implementing of access policy analysis is not perfect as I consider. If you find any bugs, an email (or even a patch!) directed to kangqian@yuantiaotech.com, I would be appreciated.<br/> 
+Tested but are not sure for no bugs. What’s more, the implementing of access policy analysis is not perfect as I consider. If you find any bugs, an email (or even a patch!) directed to..., I would be appreciated.<br/> 
 
 Instruction:<br/> 
 The toolkit offers two set of interface:<br/> 
